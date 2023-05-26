@@ -44,7 +44,7 @@ async function atualizarStatus(texto) {
     };
 
     try {
-        const response = await axios.patch('https://discordapp.com/api/v6/users/@me/settings', payload, { headers });
+       await axios.patch('https://discordapp.com/api/v6/users/@me/settings', payload, { headers });
     } catch (error) {
         console.log(error);
     }
