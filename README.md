@@ -1,6 +1,6 @@
 # discord-time-status
 
-> host on replit
+> host on replit 💻
 
 ![profile](profile.png)
 
